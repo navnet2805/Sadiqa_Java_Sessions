@@ -23,6 +23,7 @@ public class StaticNonstatic02 {
         obj.a = 200;
         System.out.println(obj.b); //100
         System.out.println(obj.a); //200
+        System.out.println(StaticNonstatic02.a); //200  //using the class name we can access the static member
 
         StaticNonstatic02 obj1 = new StaticNonstatic02();
         obj1.b=40;

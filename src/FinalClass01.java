@@ -10,7 +10,7 @@ public class FinalClass01 {
         System.out.println(obj.i);
 
 
-        obj = new FinalClass01(); // we can not reasisgn the new object
+//        obj = new FinalClass01(); // we can not reasisgn the new object
         System.out.println(obj.i);
 
 

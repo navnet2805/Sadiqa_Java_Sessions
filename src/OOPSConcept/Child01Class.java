@@ -3,10 +3,18 @@ package OOPSConcept;
 public class Child01Class extends ParentClass{
     //non static variable
     int a = 71;
+    int aC,bC;
 
     Child01Class()
     {
         System.out.println("From Child constructor");
+    }
+
+    Child01Class(int a,int b)
+    {
+        super.aP=a;
+        this.bC = b;
+        System.out.println("From Child 2 param constructor");
     }
 
     //static variable
@@ -36,7 +44,7 @@ public class Child01Class extends ParentClass{
     }
 
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args){
 
         //from child class
         Child01Class obj = new Child01Class();
@@ -51,8 +59,10 @@ public class Child01Class extends ParentClass{
         System.out.println(j);
         System.out.println(obj.i);
 
-        //Object class
-        obj.clone();
+
+        Child01Class objnew = new Child01Class(9,8);
+
+
 
 
 

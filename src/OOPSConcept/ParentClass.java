@@ -4,6 +4,13 @@ public class ParentClass {
 
     //non static variable
     int i = 7;
+    int aP,bP;
+
+    ParentClass(int a,int b)
+    {
+        this.aP = a;
+        this.bP = b;
+    }
 
     //static variable
     static int j = 9;

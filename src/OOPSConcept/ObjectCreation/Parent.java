@@ -1,4 +1,4 @@
-package ObjectCreation;
+package OOPSConcept.ObjectCreation;
 
 public class Parent extends Object{
     int a=10, b=20;

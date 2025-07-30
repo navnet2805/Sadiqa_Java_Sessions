@@ -1,7 +1,6 @@
-package ObjectCreation;
+package OOPSConcept.ObjectCreation;
 
-import OOPSConcept.ParentClass;
-import polymorphism.methodOverloading;
+import OOPSConcept.polymorphism.methodOverloading;
 
 
 public class Child extends Parent {

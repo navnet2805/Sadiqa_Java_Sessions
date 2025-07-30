@@ -1,6 +1,6 @@
-package polymorphism;
+package OOPSConcept.polymorphism;
 
-import ObjectCreation.Child;
+import OOPSConcept.ObjectCreation.Child;
 
 public class protectedfromChildclass extends Child {
 

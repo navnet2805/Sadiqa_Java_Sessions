@@ -10,6 +10,18 @@ public interface IntfPrgm {
     //public by default
     abstract void disp01(); // abstract method.
 
+    default void fromParentmethodonly()
+    {
+        System.out.println("from Parent method only");
+    }
+
+    default void fromParentmethodonly1()
+    {
+        System.out.println("from Parent method only");
+    }
+
+
+
     //default method
    default void disp02()
     {
